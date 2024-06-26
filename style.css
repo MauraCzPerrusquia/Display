@@ -1,0 +1,55 @@
+/* Selector de tipo(etiqueta) => nombreEtiqueta {}  */
+
+body {
+    /* Regla de CSS */
+    /* propiedad: valor*/
+    background-color: rosybrown;
+}
+
+/* Selector de clase(class) => .nombreClase {}  */
+
+.ejemplo {
+    width: 500px; 
+    height: 250px;
+    background-color: aliceblue;
+}
+
+.displayBlock{
+    display: block;
+    background-color: purple;
+}
+
+.displayBlockConTamanio{
+    display: block;
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+}
+
+.displayInline{
+    display: inline;
+    background-color: grey;
+}
+
+
+.displayInlineConTamanio{
+    display: inline;
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+
+.displayInlineBlock{
+    display: inline-block;
+    background-color: purple;
+}
+
+.tamanio{
+    width: 300px;
+}
+.displayInlineBlockConTamanio{
+    display: inline-block;
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+}
